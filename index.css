@@ -1,0 +1,42 @@
+body {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    left: 50%
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 25pt;
+
+}
+
+.sub-header {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+.link {
+    font-family: 'Inconsolata', monospace;
+    font-size: 12pt;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
