@@ -2,6 +2,8 @@ body {
     align-content: center;
     text-align: center;
     justify-content: center;
+    background-color: #eceff4;
+    color: #4c566a;
 }
 
 .main {
@@ -29,14 +31,5 @@ body {
     font-family: 'Inconsolata', monospace;
     font-size: 12pt;
     text-decoration: none;
-    color: #000000;
-}
-
-.logo-img {
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    color: #658db5;
 }
