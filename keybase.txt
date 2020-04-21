@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mtyn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thull.dev
+  * I am mtyn (https://keybase.io/mtyn) on keybase.
+  * I have a public key ASAI2JQ_dkytgol57TnESWO3ADiRfR4NJKJmLFtZ1ZU2lgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012008d8943f764cad828979ed39c44963b70038917d1e0d24a2662c5b59d59536960a",
+      "host": "keybase.io",
+      "kid": "012008d8943f764cad828979ed39c44963b70038917d1e0d24a2662c5b59d59536960a",
+      "uid": "639fa4a4931d743c415b918ffaf6c819",
+      "username": "mtyn"
+    },
+    "merkle_root": {
+      "ctime": 1587478398,
+      "hash": "3de62f96f254fc6332c31499c17107bb6b3143282d61a0dacfcd446cc60de8c0d2d2f1766d23c3a8746e84c82babcc3ac30017f03c4176810d5d88bd3ebb3b38",
+      "hash_meta": "403e9fb781e80895438be3dea3a17d1ebb4de322f7737a78dd8ccdb602c3d166",
+      "seqno": 16000411
+    },
+    "service": {
+      "entropy": "IH8HmoBpouL+0r6cIp1+rzvp",
+      "hostname": "thull.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.0"
+  },
+  "ctime": 1587478416,
+  "expire_in": 504576000,
+  "prev": "2ed593da70746261a8c08cbe55805d325ed3891773d4b8b0dd5a7f7ec35616b1",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCNiUP3ZMrYKJee05xEljtwA4kX0eDSSiZixbWdWVNpYKp3BheWxvYWTESpcCEMQgLtWT2nB0YmGowIy+VYBdMl7TiRdz1Liw3Vp/fsNWFrHEIOZC17jQ2wulHXVnyl3pU/hYv4S/nogvU0GM6MnMT8qrAgHCo3NpZ8RAatSNRDc9o8RVWtc7DdDW6u4idgfyDpm3uDK8YQiiV3jqmCySn6FV15LLZN/um67KpwEJ7so1C64/GK6zyb/KCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICGES8dEUSLihmCH2io41CsiPCSiCB1WBMiqOoeuo1hUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mtyn
+
+==================================================================
