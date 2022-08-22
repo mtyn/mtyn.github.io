@@ -1,35 +1,70 @@
 body {
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    background-color: #eceff4;
-    color: #4c566a;
+    color: #2E3440;
+    font-family: 'Iosevka Etoile Web', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1em;
+    padding: 8px 0 0 0;
+    margin: 0;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .main {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -60%);
-    left: 50%
+    padding: 32px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
 }
 
 .header {
-    font-family: 'Montserrat', sans-serif;
     margin: auto;
-    text-align: center;
-    font-size: 25pt;
-
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 .sub-header {
-    font-family: 'Inconsolata', monospace;
-    font-size: 20pt;
-    margin-top: 10px;
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 4px 0 16px 0;
+    padding: 0;
+    color: #4C566A;
+}
+
+.section-header {
+    font-size: 1.3em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: #5E81AC;
+}
+
+.secondary {
+    color: #2E344099;
+}
+
+.section-subheader {
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    color: #81A1C1;
 }
 
 .link {
-    font-family: 'Inconsolata', monospace;
     font-size: 12pt;
     text-decoration: none;
-    color: #658db5;
+    color: #88C0D0;
+}
+
+.contact-link {
+    padding: 0 16px 0 0;
+}
+
+.project {
+    padding: 0 0 32px 0;
 }

@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Tim Hull</title>
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
+        <link href="./iosevka/iosevka-etoile.css" rel="stylesheet">
         <link rel="stylesheet" href="./index.css">
         <link rel="icon" href="./favicon.ico">
         <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
@@ -10,10 +10,47 @@
     </head>
     <body>
       <div class="main">
-        <h5 class="header">Tim Hull</h5>
-        <p class="sub-header">mtyn</p>
-        <p><a class="link" href="https://www.github.com/mtyn">GitHub <i class="fab fa-github"></i></a></p>
-        <p><a class="link" href="https://www.twitter.com/merithayan">Twitter <i class="fab fa-twitter"></i></a></p>
+        <h1 class="header">Tim Hull</h1>
+        <h2 class="sub-header">Software Engineer</h2>
+        <section>
+          <a class="link contact-link" href="https://www.github.com/mtyn"><i class="fab fa-github"></i> GitHub</a>
+          <a class="link contact-link" onclick="mailTo()"><i class="fa fa-envelope"></i> Contact Me</a>
+        </section>
+        <section>
+          <h3 class="section-header">About Me</h3>
+          <p>Hello! My name is Tim and welcome to my website!</p>
+          <p>I'm a software engineer specialising in mobile platforms - Swift is my first preference, so iOS/macOS apps are my happy place (Objective-C at a push)!</p>
+          <p></p>I've also been known to work on Android projects (Kotlin and Java) and C# (when I have to go cross platform!). When not in the mobile world, I've also been enjoying experimenting with Rust and boosting my C++ skills.</p>
+          <p>Outside of coding, I can often be found either composing music in Logic, in the kitchen cooking, or in the garden working on the veg patch!</p>
+          <p>On weekends, I may also be found at the badminton court or the bouldering wall, or walking in the Highlands.</p>
+        </section>
+        <section>
+          <h3 class="section-header">Current Projects</h3>
+          <p></p>
+          <div class="project">
+            <h5 class="section-subheader">Lorekeeper</h5>
+            <p class="italic secondary">Beta Coming Soon!</p>
+            <p>An iOS and macOS app for Dungeons and Dragons DMs, to help organise worldbuilding and notes for campaigns.</p>
+          </div>
+          <div class="project">
+            <h5 class="section-subheader">Polar</h5> 
+            <p><a class="link" href="https://github.com/mtyn/polar">Available on GitHub</a></p>
+            <p>A light, wintery color scheme - an unofficial light version of the excellent <a class="link" href="https://www.nordtheme.com">Nord Theme</a> ported to a variety of apps, editors and terminals.</p>
+          </div>
+          <div class="project">
+            <h5 class="section-subheader">Untitled Game (working title: Infinite Horizons)</h5> 
+            <p class="italic secondary">Coming <span class="strikethrough">soon</span> eventually</p>
+            <p>A fun side project to create an exploration and management game. Initially as a TUI in Rust, maybe eventually as an iOS/macOS SpriteKit game if I get better at artwork! Still in the very early days of experiments and prototypes!</p>
+          </div>
+          <p class="italic secondary">See GitHub for other archived projects</p>
+        </section>
       </div>
     </body>
+    <script>
+      function mailTo() {
+        var abc = "dehilmtuv.@";
+        var email = abc[6] + abc[3] + abc[5] + abc[10] + abc[6] + abc[2] + abc[7] + abc[4] + abc[4] + abc[9] + abc[0] + abc[1] + abc[8];
+        window.location.href = "mailto:" + email;
+      }
+    </script>
 </html>
