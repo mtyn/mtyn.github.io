@@ -68,3 +68,7 @@ p {
 .project {
     padding: 0 0 32px 0;
 }
+
+.icon {
+    padding-right: 4px;
+}
